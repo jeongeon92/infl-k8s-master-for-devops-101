@@ -14,3 +14,4 @@ with socket.socket() as s:
       data = conn.recv(1024)
       if not data: break
       conn.sendall(data)
+      
